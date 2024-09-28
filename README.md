@@ -32,7 +32,7 @@ Here’s how to use the UserAgentGenerator class in your project:
 ## Example
 ```rb
 # import library
-require 'spoofageny'
+require 'spoofagent'
 
 # Create an instance of UserAgentGenerator
 generator = UserAgentGenerator.new
@@ -66,7 +66,7 @@ puts "Windows User Agent: #{windows_ua}"
 You can customize the version and build numbers when generating user agents:
 ```rb
 custom_ua = generator.generate_user_agent('chrome', version='89', build='1234')
-print("Custom Chrome User Agent:", custom_ua)
+puts "Custom Chrome User Agent:", #{custom_ua}
 ```
 
 ## Platform Options
